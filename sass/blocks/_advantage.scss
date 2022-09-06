@@ -13,8 +13,6 @@
       padding-bottom: 20px;
    }
 }
-.container {
-}
 .advantage__title {
    margin-bottom: 100px;
    @media (max-width: 1200px) {
@@ -73,10 +71,6 @@
    }
    }
 }
-.advantage__img_hidden {
-}
-.advantage__img_dots {
-}
 .advantage__benefits {
    display: flex;
    justify-content: space-between;
@@ -115,12 +109,4 @@
    @media (max-width: 1200px) {
       width: 100%;
    }
-}
-.advantage__card-icon {
-}
-.advantage__card-info {
-}
-.advantage__card-title {
-}
-.advantage__card-desc {
 }

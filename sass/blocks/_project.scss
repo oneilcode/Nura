@@ -5,8 +5,7 @@
       padding-top: 50px;
    }
 }
-.container {
-}
+
 .project {
    display: flex;
    align-items: center;
@@ -38,13 +37,6 @@
    &_numbers {
       margin-top: 20px;
    }
-}
-.project__info-about {
-}
-.project__info-mission {
-}
-.project__img {
-  
 }
 .project__img-wrapper {
    display: flex;
@@ -80,9 +72,7 @@
       height: 417px;
       @media (max-width: 1310px) {
          display: none;
-   }
+      }
    }
 }
    
-.project__info-goal {
-}

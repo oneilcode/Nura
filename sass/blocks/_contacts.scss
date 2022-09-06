@@ -11,11 +11,8 @@
    &__list {
       @media (max-width: 1140px) {
          padding-bottom: 20px;
+      }   
    }
-      
-   }
-}
-.container {
 }
 .contacts__wrapper {
    display: flex;
@@ -32,8 +29,7 @@
       iframe {
          width: 100%;
       }
-}
-   
+   }  
 }
 .contacts__info {
    &-adress {
@@ -43,16 +39,12 @@
 .contacts__title {
    margin-bottom: 28px;
 }
-.title {
-}
 .contacts__info-list {
    display: flex;
    justify-content: space-between;
    @media (max-width: 1140px) {
       display: block;
-}
-}
-.qr {
+   }
 }
 .contacts__item {
    display: flex;

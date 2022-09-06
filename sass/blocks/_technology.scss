@@ -6,14 +6,10 @@
    }
   
 }
-.container {
-}
 .technology__title {
   
    margin-bottom: 65px;
    text-align: center;
-}
-.title {
 }
 .masonry {
 	column-count: 2; 
@@ -23,14 +19,8 @@
 	   column-gap: 0; 
    }
 }
-// .technology__wrapper {
-//    columns: 2 400;
-//    gap: 10px;
-// }
 .technology__card {
-  
-   height: auto;
-   // min-height: auto;
+      height: auto;
       break-inside: avoid;
    &:not(:first-child) {
       margin-top: 90px;
@@ -55,8 +45,5 @@
    &-desc {
       font-size: 18px;
    }
-}
-
-.technology__info-desc {
 }
 
