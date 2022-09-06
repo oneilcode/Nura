@@ -1,0 +1,126 @@
+.advantage {
+   padding-top: 115px;
+   padding-bottom: 110px;
+   @media (max-width: 1200px) {
+      padding-bottom: 50px;
+      padding-top: 80px;
+   }
+   @media (max-width: 991px) {
+      padding-top: 30px;
+   }
+   @media (max-width: 767px) {
+      padding-top: 10px;
+      padding-bottom: 20px;
+   }
+}
+.container {
+}
+.advantage__title {
+   margin-bottom: 100px;
+   @media (max-width: 1200px) {
+      margin-bottom: 50px;
+   }
+}
+.advantage__wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   @media (max-width: 991px) {
+      display: block;
+   }
+}
+.advantage__img {
+   position: relative;
+   margin-right: 40px;
+   @media (max-width: 991px) {
+      margin-bottom: 30px;
+      margin-right: 0;
+}
+   img {
+      display: block;
+      width: 450px;
+      z-index: 10;
+      @media (max-width: 991px) {
+        
+         width: 100%;
+      }
+      @media (max-width: 575px) {
+         max-width: 100%;
+      }
+   }
+   &_hidden {
+      position: absolute;
+      top: 33px;
+      right: 40px;
+      background-color: #842231;
+      width: 450px;
+      height: 400px;
+      z-index: -2;
+      @media (max-width: 1200px) {
+         display: none;
+   }
+   }
+   &_dots {
+      position: absolute;
+      top: 80px;
+      right: 85px;
+      background: url('../../img/icons/dots.svg') repeat;
+      width: 450px;
+      height: 400px;
+      z-index: -3;
+      @media (max-width: 1200px) {
+         display: none;
+   }
+   }
+}
+.advantage__img_hidden {
+}
+.advantage__img_dots {
+}
+.advantage__benefits {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   flex-wrap: wrap;
+   row-gap: 40px;
+   @media (max-width: 1200px) {
+      flex-direction: column;
+      row-gap: 20px;
+}
+   
+}
+.advantage__card {
+   display: flex;
+   align-items: center;
+   width: 45%;
+   &-icon {
+      margin-right: 15px;
+      @media (max-width: 575px) {
+         display: none;
+      }
+   }
+   &-title {
+      margin-bottom: 15px;
+      @media (max-width: 991px) {
+         margin-bottom: 0; 
+   }
+      @media (max-width: 575px) {
+       text-align: start;
+      }
+   }
+
+   &-desc {
+      font-size: 18px;
+   }
+   @media (max-width: 1200px) {
+      width: 100%;
+   }
+}
+.advantage__card-icon {
+}
+.advantage__card-info {
+}
+.advantage__card-title {
+}
+.advantage__card-desc {
+}

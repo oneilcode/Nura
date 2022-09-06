@@ -1,0 +1,130 @@
+.houses {
+   padding-top: 40px;
+   padding-bottom: 50px;
+   background: rgba(132, 34, 49, 0.05);
+}
+.container {
+}
+.houses__title {
+   margin-bottom: 40px;
+}
+.houses__photoes-img {
+   position: relative;
+   @media (max-width: 1240px) {
+      width: 100%;
+}
+   img{
+   max-width: 692px;
+   z-index: 5;
+   @media (max-width: 1240px) {
+      width: 100%;
+   }
+   }
+   &_dots {
+      position: absolute;
+      top: 60px;
+      left: -30px;
+      background: url('../../img/icons/dots.svg') repeat;
+      width: 535px;
+      height: 380px;
+      z-index: -2;
+      display: none;
+   }
+}
+.houses__photoes {
+   display: flex;
+   align-items: center;
+   @media (max-width: 575px) {
+      display: block;
+   }
+   &-img {
+      @media (max-width: 575px) {
+         margin-bottom: 20px;
+      }
+   }
+}
+.houses__photoes-map {
+   @media (max-width: 767px) {
+      margin: auto;
+   }
+
+   img {
+      @media (max-width: 1240px) {
+         width: 100%;
+   }
+}
+   span {
+      display: block;
+      font-weight: 700;
+      font-size: 32px;
+      margin-bottom: 15px;
+      margin-left: 65px;
+      @media (max-width: 991px) {
+         font-size: 22px;
+      }
+      @media (max-width: 767px) {
+         display: none;
+      }
+   }
+}
+//slider
+.swiper {
+   width: 100%;
+   height: 100%;
+ }
+ .swiper-slide {
+   width: 100%;
+   cursor: pointer;
+ }
+ .swiper-navigation {
+   display: flex;
+   justify-content: space-between;
+  
+   margin: 0 auto;
+ }
+ 
+ .swiper-navigation {
+   position: relative;
+   @media (max-width: 1310px) {
+      display: none;
+}
+ }
+ .swiper-button-prev,
+ .swiper-button-next {
+   position: absolute;
+   top: -200px;
+   
+ }
+ .swiper-button-next::after {
+   display: none;
+   left: 100px;
+   
+ }
+ .swiper-button-prev::after {
+   display: none;
+   left: 100px;
+   
+ }
+ .next,
+ .prev {
+   display: block;
+   width: 50px;
+   height: 50px;     
+   background: url('../../img/icons/arrow-slider.svg')no-repeat center center;
+   background-color: #842231;
+   border-radius: 50%;
+   opacity: 0.8;
+   transition: all 0.5s ease;
+   &:hover {
+      opacity: 1;
+      transition: all 0.5s ease;
+   }
+ }
+ .prev {
+   background: url('../../img/icons/arrow-slider.svg')no-repeat center center;
+   background-color: #842231;
+   transform: rotate(180deg);
+ }
+ .swiper-button-next {
+   right: 50px;
+ }

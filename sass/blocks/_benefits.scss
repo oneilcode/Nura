@@ -1,0 +1,68 @@
+.benefit {
+   padding-top: 60px;
+   padding-bottom: 80px;
+   background: linear-gradient(to left, #fff 30%, #F9F4F4 0%);
+   @media (max-width: 991px) {
+      padding-top: 40px;
+      padding-bottom: 0px;
+      background: none;
+    }
+    @media (max-width: 767px) {
+      padding-top: 10px;
+      
+   }
+}
+
+.benefit__title {
+   text-align: center;
+   margin-bottom: 40px;
+   
+}
+
+.benefits {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 50px;
+   justify-content: center;
+   &__card {
+      display: flex;
+      align-items: center;
+   }
+   @media (max-width: 991px) {
+      display: block;
+    }
+}
+.benefits__card {
+   width: 35%;
+   &_last {
+      width: 75%;
+   }
+   @media (max-width: 991px) {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+}
+.benefits__card-icon {
+   @media (max-width: 575px) {
+      display: none;
+    }
+}
+.benefits__card-desc {
+   margin-left: 15px;
+   @media (max-width: 575px) {
+      text-align: start;
+    }
+   
+}
+.benefit__img {
+   text-align: center;
+   img{
+      max-width: 900px;
+      margin-top: 40px;
+      margin-bottom: 55px;
+      @media (max-width: 991px) {
+         display: block; 
+         width: 100%;
+      }
+   }
+}

@@ -1,0 +1,62 @@
+.technology {
+   padding-top: 80px;
+   padding-bottom: 80px;
+   @media (max-width: 1200px) {
+      padding-top: 20px;
+   }
+  
+}
+.container {
+}
+.technology__title {
+  
+   margin-bottom: 65px;
+   text-align: center;
+}
+.title {
+}
+.masonry {
+	column-count: 2; 
+	column-gap: 100px; 
+   @media (max-width: 767px) {
+      column-count: 1; 
+	   column-gap: 0; 
+   }
+}
+// .technology__wrapper {
+//    columns: 2 400;
+//    gap: 10px;
+// }
+.technology__card {
+  
+   height: auto;
+   // min-height: auto;
+      break-inside: avoid;
+   &:not(:first-child) {
+      margin-top: 90px;
+   }
+}
+.masonry .item {
+	display: inline-block; // важно!
+	width: 100%;           // важно!
+}
+.technology__cards {
+
+   margin-bottom: 32px;
+   img {
+      max-width: 100%;
+   }
+  
+}
+.technology__info {
+   &-title {
+      margin-bottom: 15px;
+   }
+   &-desc {
+      font-size: 18px;
+   }
+}
+
+.technology__info-desc {
+}
+

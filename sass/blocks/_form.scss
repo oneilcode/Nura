@@ -1,0 +1,59 @@
+.form{
+   &__button { 
+      background: #842231;
+      border-radius: 8px;
+      color: #FFFFFF;
+      font-size: 18px;
+      font-weight: 500; 
+      padding: 30px 90px; 
+      cursor: pointer;   
+      @media (max-width: 575px) {
+         padding: 30px;
+      }
+   }
+
+}
+.form__presentation{
+   border: 8px solid #842231;
+   border-radius: 8px;
+   padding: 70px 100px;
+   @media (max-width: 1200px) {
+      display: flex;
+      flex-direction: column;
+   }
+   @media (max-width: 575px) {
+      padding: 30px;
+   }
+}
+.form__title {
+   margin-bottom: 25px;
+   text-align: center;
+}
+.title {
+}
+.form__subtitle {
+   font-size: 21px;
+   margin-bottom: 35px;
+   text-align: center;
+}
+.form__input_user {
+   background: url('../../img/icons/user.svg') no-repeat center left 20px;
+}
+.form__input_tel {
+   background: url('../../img/icons/phone-form.svg') no-repeat center left 20px;
+}
+.form__input {  
+   max-width: 280px;
+   background-color: #F2F6FA;
+   border-radius: 8px;
+   color: #7E868E;
+   font-weight: 400;
+   font-size: 15px;
+   padding: 33px 60px; 
+   margin-right: 20px;
+   @media (max-width: 1200px) {
+      max-width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+}
+}

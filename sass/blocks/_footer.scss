@@ -1,0 +1,23 @@
+.footer {
+   padding-top: 50px;
+   padding-bottom: 70px;
+   @media (max-width: 767px) {
+      padding-top: 20px;
+      padding-bottom: 20px;
+   }
+}
+
+.footer__menu ul{
+   display: flex;
+   justify-content:center;
+   color: #333333;
+   li:not(:last-child){
+      margin-right: 60px;
+      @media (max-width: 767px) {
+         margin-bottom: 20px;
+      }
+   }
+   @media (max-width: 767px) {
+      display: block;
+   }
+}

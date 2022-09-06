@@ -1,0 +1,52 @@
+body {
+   font-family: 'Fira Sans', sans-serif;
+   color: #333333;
+   font-size: 20px;
+   font-weight: 300;
+}
+.container {
+   max-width: 1180px;
+   padding: 0 15px;
+   margin: 0 auto;
+   @media (max-width: 1200px) {
+      max-width: 1110px;
+      padding: 0 30px;
+}
+}
+
+p {
+   font-weight: 300;
+   font-size: 20px;
+   font-style: normal;
+   @media (max-width: 991px) {
+      text-align: justify;
+    }
+}
+
+.title {
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 48px;
+   @media (max-width: 575px) {
+      font-size: 30px;
+      line-height: 38px;
+   }
+}
+.btn {
+   font-weight: 700;
+   font-size: 18px;
+   color: #333333;
+   background: $acsent;
+   padding: 20px 30px;
+   text-align: center;
+   transition: all 0.5s ease;
+   
+   &:hover {
+      background: #E19145;
+      transition: all 0.5s ease;
+   }
+   @media (max-width: 575px) {
+      width: 100%;
+      
+   }
+}
