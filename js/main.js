@@ -14,12 +14,14 @@ const mySwiper = new Swiper('.swiper', {
    },
 })
 
-const swiperPrev = document.getElementById('swiperPrev')
-const swiperNext = document.getElementById('swiperNext')
+// menu-mobile
 
-swiperPrev.addEventListener('click', () => {
-   mySwiper.slidePrev();
-})
-swiperNext.addEventListener('click', () => {
-   mySwiper.slideNext();
-})
+const menuBtn = document.querySelector('.menu__mobile');
+const menuList = document.querySelector('.menu__nav-bottom');
+
+
+
+menuBtn.addEventListener('click', function () {
+   menuList.classList.toggle('show');
+   console.log(menuList);
+});
