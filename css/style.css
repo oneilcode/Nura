@@ -123,7 +123,7 @@ legend {
 .header {
   padding-bottom: 140px;
   color: #fff;
-  background: url("../../img/photoes/mainbg.svg") no-repeat center top/cover; }
+  background: url("../img/photoes/mainbg.svg") no-repeat center top/cover; }
 
 .menu {
   display: flex;
@@ -156,7 +156,7 @@ legend {
     align-items: center;
     width: 23px;
     height: 23px;
-    background: url("../../img/icons/phone-header.svg") no-repeat;
+    background: url("../img/icons/phone-header.svg") no-repeat;
     margin-right: 10px; }
   .menu__nav-top_phone:hover {
     background-color: #DBA069;
@@ -359,7 +359,7 @@ legend {
     position: absolute;
     top: 80px;
     right: -85px;
-    background: url("../../img/icons/dots.svg") no-repeat;
+    background: url("../img/icons/dots.svg") no-repeat;
     width: 442px;
     height: 417px; }
     @media (max-width: 1310px) {
@@ -389,7 +389,7 @@ legend {
     position: absolute;
     top: 60px;
     left: -30px;
-    background: url("../../img/icons/dots.svg") repeat;
+    background: url("../img/icons/dots.svg") repeat;
     width: 535px;
     height: 380px;
     z-index: -2;
@@ -461,7 +461,7 @@ legend {
   display: block;
   width: 50px;
   height: 50px;
-  background: url("../../img/icons/arrow-slider.svg") no-repeat center center;
+  background: url("../img/icons/arrow-slider.svg") no-repeat center center;
   background-color: #842231;
   border-radius: 50%;
   opacity: 0.8;
@@ -472,7 +472,7 @@ legend {
     transition: all 0.5s ease; }
 
 .prev {
-  background: url("../../img/icons/arrow-slider.svg") no-repeat center center;
+  background: url("../img/icons/arrow-slider.svg") no-repeat center center;
   background-color: #842231;
   transform: rotate(180deg); }
 
@@ -590,7 +590,7 @@ legend {
     position: absolute;
     top: 80px;
     right: -85px;
-    background: url("../../img/icons/dots.svg") repeat;
+    background: url("../img/icons/dots.svg") repeat;
     width: 580px;
     height: 400px;
     z-index: -3; }
@@ -662,7 +662,7 @@ legend {
     position: absolute;
     top: 80px;
     right: 85px;
-    background: url("../../img/icons/dots.svg") repeat;
+    background: url("../img/icons/dots.svg") repeat;
     width: 450px;
     height: 400px;
     z-index: -3; }
@@ -847,21 +847,21 @@ legend {
     margin-right: 10px;
     width: 22px;
     height: 22px;
-    background: url("../../img/icons/footer-phone.svg") no-repeat; }
+    background: url("../img/icons/footer-phone.svg") no-repeat; }
   .contacts__item_email::before {
     content: '';
     display: inline-block;
     margin-right: 10px;
     width: 22px;
     height: 22px;
-    background: url("../../img/icons/email.svg") no-repeat; }
+    background: url("../img/icons/email.svg") no-repeat; }
   .contacts__item_instagram::before {
     content: '';
     display: inline-block;
     margin-right: 10px;
     width: 22px;
     height: 22px;
-    background: url("../../img/icons/instagram.svg") no-repeat; }
+    background: url("../img/icons/instagram.svg") no-repeat; }
   .contacts__item a {
     font-size: 18px;
     color: #333333; }
@@ -921,10 +921,10 @@ legend {
   text-align: center; }
 
 .form__input_user {
-  background: url("../../img/icons/user.svg") no-repeat center left 20px; }
+  background: url("../img/icons/user.svg") no-repeat center left 20px; }
 
 .form__input_tel {
-  background: url("../../img/icons/phone-form.svg") no-repeat center left 20px; }
+  background: url("../img/icons/phone-form.svg") no-repeat center left 20px; }
 
 .form__input {
   max-width: 280px;
