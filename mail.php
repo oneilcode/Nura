@@ -15,7 +15,7 @@
 		<p class="form__subtitle">Оставьте свои контакты и мы вам вышлем</p>
 		<input required class="form__input form__input_user" name="name" type="text" placeholder="Ваше имя" />
 		<input required class="form__input form__input_tel" name="phone" type="tel" placeholder="Номер телефона" />
-		<buttom id="submit" class="form__button btn" value="Отправить" type="submit">Отправить</buttom>
+		<button id="submit" class="form__button btn" value="Отправить" type="submit">Отправить</button>
 	</form> <?php
   } else {
   //показываем форму
